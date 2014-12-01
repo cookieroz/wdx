@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
   root                'static_pages#home'
-  get    'help'    => 'static_pages#help'
+  get    'design'    => 'static_pages#design'
+  get    'visual'    => 'static_pages#visual'
+  get    'photography'    => 'static_pages#photography'
+  get    'audio'    => 'static_pages#audio'
+  get    'equipment'    => 'static_pages#equipment'
   get    'about'   => 'static_pages#about'
   get    'contact' => 'static_pages#contact'
   get    'signup'  => 'users#new'
