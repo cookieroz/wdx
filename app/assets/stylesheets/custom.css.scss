@@ -24,6 +24,10 @@ body {
   margin-bottom: 60px;
 }
 
+body.intro {
+  background: #f2f0e1 url("bg.JPG") no-repeat center center;
+}
+
 section {
   overflow: auto;
 }
@@ -46,6 +50,18 @@ a {
 .main-layout {
   padding-bottom: 10px;
   padding-top: 10px;
+}
+
+.blank-layout {
+  height: 100%;
+  margin-top: 10%;
+  width: 100%;
+
+  a {
+    display: block;
+    height: 500px;
+    width: 100%;
+  }
 }
 
 /* typography */

@@ -15,4 +15,8 @@ class StaticPagesController < ApplicationController
   
   def contact
   end
+
+  def start
+    render layout: 'blank'
+  end
 end
